@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omkareshwar Visit Itinerary</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            padding: 30px;
+            background-color: #2980b9;
+            color: white;
+            font-size: 36px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+        .timeline-container {
+            position: relative;
+            max-width: 90%;
+            margin: 0 auto;
+            padding: 40px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .timeline-block {
+            background: linear-gradient(135deg, #2980b9 0%, #8e44ad 100%);
+            color: white;
+            width: 80%;
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        .timeline-block:hover {
+            transform: scale(1.05);
+        }
+
+        .timeline-icon {
+            font-size: 40px;
+            margin-right: 20px;
+        }
+
+        .timeline-content {
+            flex-grow: 1;
+        }
+
+        .event-time {
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .event-description {
+            font-size: 16px;
+            color: #f1f1f1;
+        }
+
+        .event-details {
+            font-size: 14px;
+            color: #dcdcdc;
+        }
+
+        .event-link {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .event-link a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            height: 100%;
+            border-left: 5px solid #2980b9;
+            transform: translateX(-50%);
+        }
+
+        .accordion {
+            background-color: #fff;
+            color: #333;
+            padding: 18px;
+            margin: 8px 0;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 80%;
+            text-align: left;
+            border: 2px solid #2980b9;
+        }
+
+        .active, .accordion:hover {
+            background-color: #2980b9;
+            color: white;
+        }
+
+        .panel {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #f1f1f1;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Omkareshwar Visit Itinerary (5th March - 8th March)</h1>
+
+    <div class="timeline-container">
+
+        <!-- Day 1 -->
+        <div class="timeline-block">
+            <div class="timeline-icon">🚉</div>
+            <div class="timeline-content">
+                <div class="event-time">5th March - 09:00 PM</div>
+                <div class="event-description">Meet at Borivali Station. Train (Avantika Exp 12961) departs from Borivali.</div>
+                <div class="event-details">Start: 09:00 PM | End: 09:21 PM</div>
+            </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="timeline-block">
+            <div class="timeline-icon">🕒</div>
+            <div class="timeline-content">
+                <div class="event-time">6th March - 10:00 AM</div>
+                <div class="event-description">Arrive in Indore, travel to Omkareshwar (85+ KM approx 2 hours).</div>
+                <div class="event-details">Start: 10:00 AM | End: 10:30 AM</div>
+            </div>
+        </div>
+
+        <div class="timeline-block">
+            <div class="timeline-icon">🏨</div>
+            <div class="timeline-content">
+                <div class="event-time">6th March - 1:30 PM</div>
+                <div class="event-description">Check-in at the hotel and rest for a while.</div>
+                <div class="event-details">Start: 1:30 PM | End: 3:00 PM</div>
+            </div>
+        </div>
+
+        <div class="timeline-block">
+            <div class="timeline-icon">⛪</div>
+            <div class="timeline-content">
+                <div class="event-time">6th March - 4:40 PM</div>
+                <div class="event-description">Visit Omkareshwar Temple and local markets.</div>
+                <div class="event-details">Start: 4:40 PM | End: 6:00 PM</div>
+            </div>
+        </div>
+
+        <div class="timeline-block">
+            <div class="timeline-icon">🍽️</div>
+            <div class="timeline-content">
+                <div class="event-time">6th March - Evening</div>
+                <div class="event-description">Dinner and relaxation at a local restaurant.</div>
+                <div class="event-details">Start: 7:00 PM | End: 9:00 PM</div>
+            </div>
+        </div>
+
+        <!-- Day 3 -->
+        <div class="timeline-block">
+            <div class="timeline-icon">🙏</div>
+            <div class="timeline-content">
+                <div class="event-time">7th March - 4:00 AM</div>
+                <div class="event-description">Darshan at Omkareshwar Temple.</div>
+                <div class="event-details">Start: 4:00 AM | End: 5:00 AM</div>
+            </div>
+        </div>
+
+        <div class="timeline-block">
+            <div class="timeline-icon">🛣️</div>
+            <div class="timeline-content">
+                <div class="event-time">7th March - 10:00 AM</div>
+                <div class="event-description">Travel to Ujjain (140+ KM approx 4 hours).</div>
+                <div class="event-details">Start: 10:00 AM | End: 2:00 PM</div>
+            </div>
+        </div>
+
+        <div class="timeline-block">
+            <div class="timeline-icon">🛏️</div>
+            <div class="timeline-content">
+                <div class="event-time">7th March - 2:30 PM</div>
+                <div class="event-description">Check-in at the hotel and rest.</div>
+                <div class="event-details">Start: 2:30 PM | End: 4:00 PM</div>
+            </div>
+        </div>
+
+        <div class="timeline-block">
+            <div class="timeline-icon">📜</div>
+            <div class="timeline-content">
+                <div class="event-time">7th March - 4:00 PM</div>
+                <div class="event-description">Explore local attractions in Ujjain.</div>
+                <div class="event-details">Start: 4:00 PM | End: 6:00 PM</div>
+            </div>
+        </div>
+
+        <!-- Day 4 -->
+        <div class="timeline-block">
+            <div class="timeline-icon">⛪</div>
+            <div class="timeline-content">
+                <div class="event-time">8th March - 4:00 AM</div>
+                <div class="event-description">Darshan at Shri Mahakaleshwar Jyotirlinga Temple.</div>
+                <div class="event-details">Start: 4:00 AM | End: 5:00 AM</div>
+            </div>
+        </div>
+
+        <div class="timeline-block">
+            <div class="timeline-icon">🚉</div>
+            <div class="timeline-content">
+                <div class="event-time">8th March - 11:15 AM</div>
+                <div class="event-description">Train departs from Indore back to Vasai.</div>
+                <div class="event-details">Start: 11:15 AM | End: 11:30 AM</div>
+            </div>
+        </div>
+
+        <div class="timeline-block">
+            <div class="timeline-icon">🏠</div>
+            <div class="timeline-content">
+                <div class="event-time">8th March - 10:50 PM</div>
+                <div class="event-description">Arrival at Vasai, end of the trip.</div>
+                <div class="event-details">Start: 10:50 PM | End: 10:50 PM</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Accordion for More Details -->
+    <div class="accordion" id="detailsAccordion">Click for more details</div>
+    <div class="panel">
+        <p>Clicking on the
